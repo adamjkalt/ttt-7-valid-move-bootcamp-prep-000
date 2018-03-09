@@ -5,9 +5,9 @@ def valid_move?(board, index)
   else
     !position_taken?(board, index)
   end
+end
 
   #index.between?(0,8) && !position_taken?(board, index)
-end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index)
